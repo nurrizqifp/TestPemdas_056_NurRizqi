@@ -1,0 +1,14 @@
+1.	Perbedaan utama terletak pada adanya keyword Class yang membuat main process harus memanggil objek untuk dieksekusi. Yang membuat  perbedaan paling mencolok perbedaan dari bahasa C++ dan C itu sendiri
+Prosedural tidak perlu membuat sebuah kelas, hanya berbentuk function dan variabel, juga dieksekusi secara prosedural
+2.	Encapsulation salah satu keunggulan utamanya adalah memberi akses dan membatasi akses dari dan keluar kelas.
+3.	Analogi class dan objek dalam dunia nyata dapat digambarkan oleh pengelompokan hewan. Spesifiknya, misal dalam kelas hewan terdapat data nama hewan, fungsi suara, dan sebagainya. objek yang menggunakannya dapat menggunakan semua hal yang disediakan oleh kelas tersebut. Sehingga kelas dapat digambarkan sebuah fondasi, entah sudah diisi dari awal ataupun meminta input dari user.
+4.	Private: akses hanya kelas itu sendiri
+Protected: akses diberikan ke keals itu sendiri dan kelas turunan
+Public: akses diberikan ke kelas itu sendiri, turunan, kelas luar
+5.	Constructor dapat dibilang sebagai pemberi nilai awal dari sebuah kelas, pemberi nilai default sebagai analogi teknisnya.
+6.	Overloading dilakukan ketika proses compiling, sedangkan overriding dilakukan ketika runtime/ketika dieksekusi. Perbedaan waktu eksekusi menjadi salah satu perbedaan utama di 2 jenis function ini
+7.	Destructor sering digunakan untuk mengganti nilai awal/default. Sering digunakan dalam inheritance sering menggunakan virtual desctructor untuk mengganti nilai default yang diberikan oleh kelas orangtuanya/parentnya
+8.	Friend Class digunakan untuk mengakses member private dan protected ketika dideklarasikan kepada class lain.
+Friend Function sama halnya dengan friend class, hanya saja ini memberi akses kepada kelas lain untuk dapat menggunakan function yang sama.
+9.	This dapat digunakan untuk pengganti objek kelas itu sendiri
+10.	Static berfungsi sebagai penetap parameter dari sebuah function
